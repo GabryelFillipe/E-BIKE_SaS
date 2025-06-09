@@ -17,3 +17,21 @@ header{
 main{
   overflow: hidden;
 }
+@media (max-width:648px) {
+  .menus{
+    display: none;
+  }
+  .ponto{
+    display: none;
+  }
+.informacoes{
+  display: none;
+}
+.circulo{
+  display: none;
+}
+footer p{
+  display: none;
+}
+}
+
