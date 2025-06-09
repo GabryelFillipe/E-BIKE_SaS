@@ -9,7 +9,7 @@
 ![](./img/mobile.png)
 
 ## Projeto no figma
-[E-BIKE] (<https://www.figma.com/design/UJNbDyog58QXP9pEvlWILj/Lima-Atividade-e-bike--Copy-?node-id=0-1&t=h8TBMo8x996KRznm-1>)
+[E-BIKE](<https://www.figma.com/design/UJNbDyog58QXP9pEvlWILj/Lima-Atividade-e-bike--Copy-?node-id=0-1&t=h8TBMo8x996KRznm-1>)
 
 ## Tecnologias
 * HTML
