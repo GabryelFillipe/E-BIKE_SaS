@@ -17,6 +17,17 @@ header{
 main{
   overflow: hidden;
 }
+@media (max-width:768px) {
+  .ponto{
+    display: none;
+  }
+  .informacoes{
+    display: none;
+  }
+  .circulo{
+    display: none;
+  }
+}
 @media (max-width:648px) {
   .menus{
     display: none;
