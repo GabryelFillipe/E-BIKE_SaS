@@ -18,5 +18,6 @@
 * Media Queries
 *FIGMA
 
+
 ## Autor
 [Gabryel Fillipe](<https://www.linkedin.com/in/gabryel-fillipe/>)
