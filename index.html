@@ -12,69 +12,65 @@
     <title>E-BIKE</title>
 </head>
 <body class="bg-black w-screen">
-     <header class=" flex h-auto lg:mt-6  lg:mr-24 lg:ml-24 lg:items-center w-screen lg:gap-24 md:gap-18 md:mt-4     mt-4 gap-30">
-        <img class="md:mt-4  ml-4 " src="./img/logo-e-bike.png" alt="logo-e-bike">
-        <menu class="menus  flex  items-center lg:gap-32  text-white text-xl font-medium lg:ml-64   md:gap-28 md:w-110 md:text-lg md:mt-6">
-            <li>
-                <a class="  hover:text-black  hover:transition-colors duration-400 hover:bg-stone-200   " href="#">About us</a>
-            </li>
-            <li>
-                <a class="  hover:text-black  hover:transition-colors duration-400  hover:bg-stone-200 " href="#">Store</a>
-            </li>
-            <li>
-                <a  class="  hover:text-black  hover:transition-colors duration-400 hover:bg-stone-200 "href="#">Contact</a>
-            </li>
-        </menu>
-         <div class="flex lg:gap-12 lg:mt-4  lg:ml-45 lg:h-[38px]   items-center  md:h-[38px] md:-ml-5 md:mt-10 md:gap-12  ml-15   gap-6 mt-4 h-8">
-            <img class="" src="./img/busca-icon.png" alt="Busca">
-            <img class="" src="./img/menu-icon.png" alt="Menu">
+     <div class="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8">
+
+        <header class="flex items-center justify-around py-6">
+            <img class="h-32 lg:h-20 w-auto lg:h-10" src="./img/logo-e-bike.png" alt="logo-e-bike">
+            
+            <menu class="hidden md:flex items-center gap-8 lg:gap-12 text-white text-lg font-medium">
+                <li><a class="p-2 hover:bg-stone-200 hover:text-black rounded transition-colors" href="#">About us</a></li>
+                <li><a class="p-2 hover:bg-stone-200 hover:text-black rounded transition-colors" href="#">Store</a></li>
+                <li><a class="p-2 hover:bg-stone-200 hover:text-black rounded transition-colors" href="#">Contact</a></li>
+            </menu>
+            
+            <div class="flex items-center gap-6 lg:gap-8">
+                <img class="hidden lg:h-10 w-auto sm:block h-6 w-6" src="./img/busca-icon.png" alt="Busca">
+                <img class="block lg:h-14  w-auto h-6 w-6" src="./img/menu-icon.png" alt="Menu">
             </div>
-     </header>
-     <main  class=" flex lg:items-start  lg:flex-col w-screen  md:items-center md:flex-col relative    " >
-        <section class="conteudo-principal flex items-center lg:mt-10 lg:flex-row 2xl:mt-4 md:flex-col-reverse md:mt-0  flex-col-reverse sm:-mt-4 ">
-             <div class=" textos flex flex-col justify-center  lg:w-[600px]  md:ml-20 md:-mt-6 ml-20 ">
-                 <h2 class=" font-delius lg:text-7xl text-yellow-600 font-semibold   md:text-6xl  text-5xl ">THe HUBLeS</h2>
-                <span class=" lg:justify-start text-white lg:text-[200px] w-[610px] font-bold lg:mb-6 lg:mt-8  md:text-9xl text-8xl mt-4 mb-4">E-Bike</span>
-                <p class="text-white lg:text-3xl md:text-3xl lg:w-[548px]  md:w-[564px] w-68 text-3xl">Style, Security and safety built for the modern urban riders.</p>
-                     <div class="botao lg:mt-12     md:mt-2 mt-6">
-                         <button class=" h-18 flex justify-around items-center border-yellow-600 lg:w-92 md:100 text-white border-3 rounded-full ">
-                            <span class=" text-2xl font-medium lg:ml-0  ml-4">Order Now</span>
-                            <img class="ml-24 " src="./img/seta-icon.png" alt="">
+        </header>
+
+        <main class="relative mt-4 md:mt-0">
+             <section class="conteudo-principal w-full flex flex-col-reverse md:flex-col-reverse items-center gap-0 relative md:left-6">  
+                <div class="textos flex-1 text-center lg:w-[500px] lg:-mr-50 md:text-left relative md:left-8">
+                    <h2 class="font-delius text-4xl sm:text-5xl lg:text-7xl text-yellow-600 font-semibold">THE HUBLES</h2>
+                    <span class="block text-white text-7xl sm:text-8xl lg:text-[180px] font-bold my-2 lg:my-0">E-Bike</span>
+                    <p class="text-white text-xl lg:text-2xl max-w-md mx-auto md:mx-0">Style, Security and safety built for the modern urban riders.</p>
+                    <div class="botao mt-8 flex justify-center md:justify-start relative left-8">
+                        <button class="h-16 w-64 flex justify-between items-center border-yellow-600 text-white border-3 rounded-full px-6">
+                            <span class="text-xl font-medium">Order Now</span>
+                            <img src="./img/seta-icon.png" alt="Seta">
                         </button>
                     </div>
-             </div>
-             <img class=" relative z-50 lg:w-[900px] lg:h-auto lg:ml-[-115px]  2xl:-ml-50 lg:mr-[-150px] lg:mt-[-48px]    md:ml-[-100px] md:w-[100vh] md:h-auto w-115 h-auto -ml-60 " src="./img/Bike-Photoroom-fotor-20250606102551.png" alt="Bicicleta-imagem">
-            <img class="ponto block h-36 items-center lg:ml-10 lg:mr-0 lg:block 2xl:ml-70    md:hidden" src="./img/pontos.png" alt="pontos-icon">
-        </section> 
-
-        <img class="circulo block lg:ml-330 lg:mt-143 2xl:ml-360 2xl:mt-137  absolute z-1 lg:block lg:w-28 lg:h-28  md:w-20 md:ml-150 md:mt-227 md:h-20 mt-188 -ml-2 h-16 w-16 " src="./img/circulo-amarelo.png" alt="esfera amarela">
-        <section class="informacoes  block lg:ml-120 2xl:ml-150 flex-row gap-4   lg:w-[900px] lg:h-36  border-white border-1 backdrop-blur-sm rounded-3xl lg:mt-10 lg:block relative z-49     md:w-[610px] md:h-24 md:mt-10">
-            <ul class="flex text-2xl lg:gap-18 text-white items-center justify-center lg:mt-9    md:gap-12 md:mt-4">
-                <li>
-                    <strong class="info">1000W</strong>
-                    <p class="text-gray-300">Motor</p>
-                </li>
-                <li>
-                    <strong class="info">5 Hours</strong>
-                    <p class="text-gray-300">Charging Time</p>
-                </li>
-                <li>
-                    <strong class="info">75mph</strong>
-                    <p class="text-gray-300">Top Speed</p>
-                </li>
-                <li>
-                    <strong class="info">90V</strong>
-                    <p class="text-gray-300">Battery</p>
-                </li>
-            </ul>
-        </section>
-        <img class="circulo lg:ml-110 lg:-mt-16  lg:w-28  2xl:ml-137 2xl:-mt-17  md:w-20 md:-ml-150 md:-mt-12 w-1200 " src="./img/circulo-amarelo.png" alt="">
-     </main>
-     <footer class=" flex  justify-center w-screen items-center lg:block lg:mt-30  lg:ml-130 2xl:mt-4 text-medium md:hidden  sm:hidden">
-        <p class="text-white ">
+                </div>
+                <img class="relative z-10 w-full max-w-ld md:max-w-lg  lg:max-w-2xl lg:h-[800px] mx-auto" src="./img/Bike-Photoroom-fotor-20250606102551.png" alt="Bicicleta-imagem">            
+                <img class="ponto block h-36 items-center lg:-ml-4 lg:mr-0 lg:block 2xl:ml-70    md:hidden" src="./img/pontos.png" alt="pontos-icon">
+                
+            </section> 
+            <div class="relative mt-16 md:mt-24 lg:mt-4">
+                <img class="absolute top-25 -translate-y-1/2 left-1/4 w-24 h-24 lg:w-32 lg:h-32  blur" src="./img/circulo-amarelo.png" alt="esfera amarela">
+                
+                <section class="informacoes relative z-20 w-full max-w-4xl mx-auto border-white border-2 backdrop-blur-sm rounded-2xl py-6 px-4 md:w-full">
+                    <ul class="flex flex-wrap text-white items-center justify-center text-center gap-y-4 gap-x-8 sm:gap-12">
+                        <li class="w-24"><strong class="block text-xl lg:text-2xl">1000W</strong>
+                            <p class="text-gray-300 text-sm">Motor</p></li>
+                        <li class="w-24"><strong class="block text-xl lg:text-2xl">5 Hours</strong>
+                            <p class="text-gray-300 text-sm">Charging Time</p></li>
+                        <li class="w-24"><strong class="block text-xl lg:text-2xl">75mph</strong>
+                            <p class="text-gray-300 text-sm">Top Speed</p></li>
+                        <li class="w-24"><strong class="block text-xl lg:text-2xl">90V</strong>
+                            <p class="text-gray-300 text-sm">Battery</p></li>
+                    </ul>
+                </section>
+                
+                <img class="absolute top-10 right-1/4 w-24 h-24 lg:w-32 lg:h-32 z-50 blur" src="./img/circulo-amarelo.png" alt="esfera amarela">
+            </div>
+          </main>
+     </div>
+    <footer class="text-center w-full py-12 mt-0 md:mt-24">
+        <p class="text-white text-sm px-4">
             © 2025 THE HUBLES | Todos os Direitos Reservados | Desenvolvido por Gabryel Fillipe
         </p>
-        <div class="opcoes  block  flex-row gap-4    border-white border-1 backdrop-blur-sm rounded-3xl  h-17 w-100 mt-6 sm:hidden">
+        <div class="opcoes  block  flex-row gap-4    border-white border-1 backdrop-blur-sm rounded-3xl  h-17 w-100 mt-10 sm:hidden">
             <menu class="  flex  items-center  text-white text-xl font-medium   sm:hidden mb-30 gap-12  justify-center mt-4">
             <li>
                 <a class="  hover:text-black  hover:transition-colors duration-400 hover:bg-stone-200   " href="#">About us</a>
